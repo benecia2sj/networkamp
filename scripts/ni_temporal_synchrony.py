@@ -14,7 +14,7 @@ basedir = '/vols/Data/ukbiobank/FMRIB/IMAGING/data3/SubjectsAll'
 
 # Load subject IDs
 subjid = np.load('subjectid.npz')
-subjid = subjid['subjid']
+subjid = subjid['subjid']  # nsubj x 1 vector of 8-digit subject IDs
 nsubj = len(subjid)
 
 # Load MNI mask
